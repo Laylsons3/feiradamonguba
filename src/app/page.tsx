@@ -88,7 +88,7 @@ export default function Home() {
                 alt="foto-feira"
                 width={200}
                 height={200}
-                src={`/fotos/feira (${image}).jpeg`}
+                src={`/fotos/feira (${image}).JPEG`}
               />
             ))}
           </div>
