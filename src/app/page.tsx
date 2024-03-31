@@ -40,7 +40,7 @@ export default function Home() {
           className="h-screen px-4 bg-slate-800 text-zinc-100 gap-y-4 flex w-full flex-col justify-center items-center pt-16"
         >
           <Image
-            src="/geral.jpeg"
+            src="/geral.JPEG"
             width={600}
             height={400}
             alt="Foto geral da feira"
