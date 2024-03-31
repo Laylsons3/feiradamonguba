@@ -101,15 +101,14 @@ export default function Home() {
           <h1 className="text-xl font-bold">Sobre</h1>
           <div className="max-w-[860px] flex flex-col gap-y-4 text-justify">
             <p>
-              O projeto &quot; &ldquo; &#34; &rdquo; Artesanato - Mãos
-              Talentosas é motivado pela necessidade de preservar e promover o
-              patrimônio cultural e artístico do bairro da Monguba e da tribo
-              Pitaguary, enquanto destaca a criatividade e habilidade dos
-              artesãos locais. O artesanato desempenha um papel fundamental na
-              preservação da identidade cultural dessas comunidades, sendo uma
-              fonte de renda e um meio de expressão artística. As filmagens
-              foram feitas no dia 8 de março de 2024 na Escola Major Assis
-              Nepomuceno em Monguba.
+              O projeto &ldquo;Artesanato - Mãos Talentosas&rdquo; é motivado
+              pela necessidade de preservar e promover o patrimônio cultural e
+              artístico do bairro da Monguba e da tribo Pitaguary, enquanto
+              destaca a criatividade e habilidade dos artesãos locais. O
+              artesanato desempenha um papel fundamental na preservação da
+              identidade cultural dessas comunidades, sendo uma fonte de renda e
+              um meio de expressão artística. As filmagens foram feitas no dia 8
+              de março de 2024 na Escola Major Assis Nepomuceno em Monguba.
             </p>
             <p>
               Projeto: Artesanato Mãos Talentosas; Número do TEC Termo de
