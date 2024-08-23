@@ -45,12 +45,12 @@ export default function Home() {
             height={400}
             alt="Foto geral da feira"
           />
-          <p className="max-w-xl text-justify">
+          <p className="max-w-xl text-sm text-justify">
             A Feira de Artesanato da Monguba foi realizada no dia 08 de março de
             2024 (Dia Internacional da Mulher) na Escola Major Manoel Assis
             Nepomuceno na Monguba, Pacatuba-CE.
           </p>
-          <p className="max-w-xl text-justify">
+          <p className="max-w-xl text-sm text-justify">
             Participaram da feira artesãs da própria comunidade e puderam
             mostrar seus trabalhos com diversos tipos diferentes de artesanato
             como: Cerâmica, Pintura em telha, Crochê e EVA.
@@ -125,7 +125,57 @@ export default function Home() {
 
         <section
           id="section-5"
-          className="h-screen bg-slate-800 text-zinc-100 gap-y-4 flex w-full flex-col justify-center items-center py-4"
+          className="h-full bg-gray-950 text-zinc-100 gap-y-4 flex w-full flex-col justify-center items-center py-4"
+        >
+          <h1 className="text-xl font-bold">Registro dos artesanatos</h1>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-4">
+            <div>
+              <Image src="/fotos/feira (8).jpeg" width={350} height={350} alt="image" />
+              <h3 className="text-lg font-medium">Pintura em Cerâmica</h3>
+            </div>
+            <div>
+              <Image src="/fotos/feira (10).jpeg" width={350} height={350} alt="image" />
+              <h3 className="text-lg font-medium">Colagem em Cerâmica</h3>
+            </div>
+            <div>
+              <Image src="/fotos/feira (11).jpeg" width={350} height={350} alt="image" />
+              <h3 className="text-lg font-medium">Tricô</h3>
+            </div>
+            <div>
+              <Image src="/fotos/feira (31).jpeg" width={350} height={350} alt="image" />
+              <h3 className="text-lg font-medium">Argila</h3>
+            </div>
+            <div>
+              <Image src="/fotos/feira (34).jpeg" width={350} height={350} alt="image" />
+              <h3 className="text-lg font-medium">Crochê</h3>
+            </div>
+            <div>
+              <Image src="/fotos/feira (35).jpeg" width={350} height={350} alt="image" />
+              <h3 className="text-lg font-medium">Recorte em EVA</h3>
+            </div>
+            <div>
+              <Image src="/fotos/pet.png" width={350} height={350} alt="image" />
+              <h3 className="text-lg font-medium">PET</h3>
+            </div>
+            <div>
+              <Image src="/fotos/isopor.png" width={350} height={350} alt="image" />
+              <h3 className="text-lg font-medium">Plastico e isopor</h3>
+            </div>
+            <div>
+              <Image src="/fotos/arte natural.png" className="" width={350} height={350} alt="image" />
+              <h3 className="text-lg font-medium">Artesanato com materiais naturais</h3>
+            </div>
+            <div className="overflow-hidden">
+              <Image src="/fotos/reciclados.png" width={350} height={350} alt="image" />
+              <h3 className="text-lg font-medium">Materiais reciclado</h3>
+            </div>
+
+          </div>
+        </section>
+
+        <section
+          id="section-5"
+          className="h-full bg-slate-800 text-zinc-100 gap-y-4 flex w-full flex-col justify-center items-center py-4"
         >
           <h1 className="text-xl font-bold">Contatos</h1>
           <div className="flex flex-col">
