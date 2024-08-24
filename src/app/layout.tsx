@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Artesanato Mãos Talentosas",
-  description: "Mini documentário de Artesanato da Monguba - www.artedamonguba.com.br",
+  description: "Mini documentário de Artesanato da Monguba  -  www.artedamonguba.com.br",
 };
 
 export default function RootLayout({
