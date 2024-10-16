@@ -202,8 +202,13 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="h-16 bg-zinc-900 text-white flex items-center justify-center">
+      <footer className="bg-zinc-400 p-4 text-white flex flex-col items-center justify-center">
         <p>Feira de Artesanato da Monguba &copy; 2024</p>
+
+        <div className="py-2">
+          <Image src="/lpg-logo.png" width={800} height={150} alt="LPG-Logo" />
+
+        </div>
       </footer>
     </div>
   );
